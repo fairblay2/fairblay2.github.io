@@ -1,0 +1,10 @@
+#start{
+  background: url(../img/main-bg.jpg) no-repeat center center /cover;
+background-position: 80% top;
+padding: 18% 0;
+}
+#start h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+#start
