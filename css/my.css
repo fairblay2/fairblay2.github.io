@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-#start{
-  background: url(../img/main-bg.jpg) no-repeat center center /cover;
-background-position: 80% top;
-padding: 18% 0;
-}
-#start h1 {
-  font-size: 40px;
-  font-weight: 400;
-}
-#start
-=======
-
 .btn.btn_blue{
   background: #2fa3dc;
   border-color: #2fa3dc;
@@ -31,4 +18,3 @@ padding: 18% 0;
   font-size: 1em;
   min-width: 23%;
 }
->>>>>>> 5ca76ac30421827ff1a98f8660ccea3481db0ded
