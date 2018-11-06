@@ -27,6 +27,7 @@ padding: 18% 0;
   font-size: 40px;
   font-weight: 400;
 }
+<<<<<<< HEAD
 .block-title::after{
   position: relative;
     content: '';
@@ -38,4 +39,17 @@ padding: 18% 0;
 .display-5{
   font-size: 18px;
     line-height: 1.3846em;
+=======
+#start .more {
+  position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    margin-left: -17px;
+    margin-bottom: -140px;
+    width: 34px;
+    height: 18px;
+    background: url(../img/arr-down.png) no-repeat;
+    cursor: pointer;
+>>>>>>> d6f1bd294ecac4014f5931487f28e035afb52168
 }
