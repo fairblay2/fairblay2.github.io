@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #start{
   background: url(../img/main-bg.jpg) no-repeat center center /cover;
 background-position: 80% top;
@@ -8,3 +9,26 @@ padding: 18% 0;
   font-weight: 400;
 }
 #start
+=======
+
+.btn.btn_blue{
+  background: #2fa3dc;
+  border-color: #2fa3dc;
+  transition: background .3s;
+}
+.btn.btn_blue:hover,
+.btn.btn_blue:active {
+  background: #2396cf;
+}
+.block-opros{
+  background: #efefef;
+}
+.display-4{
+  font-size: 25px;
+    line-height: 1.3846em;
+}
+.btn.btn-lg{
+  font-size: 1em;
+  min-width: 23%;
+}
+>>>>>>> 5ca76ac30421827ff1a98f8660ccea3481db0ded
