@@ -1,0 +1,21 @@
+
+.btn.btn_blue{
+  background: #2fa3dc;
+  border-color: #2fa3dc;
+  transition: background .3s;
+}
+.btn.btn_blue:hover,
+.btn.btn_blue:active {
+  background: #2396cf;
+}
+.block-opros{
+  background: #efefef;
+}
+.display-4{
+  font-size: 25px;
+    line-height: 1.3846em;
+}
+.btn.btn-lg{
+  font-size: 1em;
+  min-width: 23%;
+}
