@@ -27,3 +27,15 @@ padding: 18% 0;
   font-size: 40px;
   font-weight: 400;
 }
+.block-title::after{
+  position: relative;
+    content: '';
+    display: inline-block;
+    width: 76px;
+    height: 6px;
+    background: #2fa3dc;
+}
+.display-5{
+  font-size: 18px;
+    line-height: 1.3846em;
+}
