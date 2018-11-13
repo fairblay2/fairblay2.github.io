@@ -28,17 +28,22 @@ padding: 18% 0;
   font-weight: 400;
 }
 <<<<<<< HEAD
-.block-title::after{
-  position: relative;
-    content: '';
-    display: inline-block;
-    width: 76px;
-    height: 6px;
-    background: #2fa3dc;
-}
+
 .display-5{
   font-size: 18px;
     line-height: 1.3846em;
+  }
+.hr_blue{
+    width: 10%;
+    border: 3px solid #2fa3dc;
+}
+.imgg{
+    max-width: 45%;
+}
+.pic{
+  width: auto;
+  height: auto;
+}
 =======
 #start .more {
   position: absolute;
