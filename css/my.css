@@ -38,13 +38,13 @@ padding: 18% 0;
     border: 3px solid #2fa3dc;
 }
 .imgg{
-    max-width: 45%;
+    max-width: 90%;
 }
-.pic{
-  width: auto;
-  height: auto;
+.imggg{
+  width: 80%;
+  display: inline-block;
 }
-=======
+
 #start .more {
   position: absolute;
     content: '';
@@ -56,5 +56,101 @@ padding: 18% 0;
     height: 18px;
     background: url(../img/arr-down.png) no-repeat;
     cursor: pointer;
->>>>>>> d6f1bd294ecac4014f5931487f28e035afb52168
+}
+#smart {
+  /*background: url(../img/smart_text.png) no-repeat;*/
+  background-size: contain;
+height: 100%;
+margin: 0 auto;
+min-width: 100%;
+}
+#smart .smart-box {
+  position: relative;
+width: 860px;
+margin: 0 auto;
+}
+#smart .smart-word {
+  position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+#smart .word {
+  background: url(../img/smart_text.png) 50% 50% no-repeat;
+background-size: contain;
+height: 100%;
+width: 92.43%;
+margin: 0 auto;
+}
+#smart .t-smart {
+  table-layout: fixed;
+    height: 120px;
+    text-align: center;
+    max-width: 98%;
+    margin: 0 auto;
+}
+#smart .t-lg {
+  width: 100%;
+}
+#smart .t {
+  display: table;
+    table-layout: auto;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#smart .smart-item {
+  display: inline-block;
+    border-bottom: 2px solid #ccc;
+    vertical-align: top;
+    text-align: center;
+    font: 1.125em/1.222em 'dindisplay-thin';
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 90%;
+}
+#smart .t-smart .td:first-child {
+  padding-left: 0;
+text-align: left;
+}
+#smart .t-smart {
+  padding-left: 0;
+text-align: left;
+}
+#smart .t-smart .td {
+  position: relative;
+}
+.td {
+  display: table-cell;
+  vertical-align: middle;
+}
+#smart .t-smart .td.td-m {
+  padding-left: 10px;
+}
+#smart .t-smart .td.td-a {
+  width: 25%;
+padding-left: 35px
+}
+#smart .t-smart .td.td-r {
+      padding-left: 15px;
+}
+#smart .t-smart .td:last-child {
+  padding-right: 0;
+text-align: right;
+}
+#smart .t-block {
+  height: 719px;
+}
+.t.t-lg {
+      width: 100%;
+}
+.t.t-fixed {
+      table-layout: fixed;
+}
+.smart_popup {
+  display: none;
 }
